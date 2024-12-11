@@ -1,7 +1,9 @@
 # matting_zc
 
-## 权重文件下载说明
-由于save_model/adapter/train_adapter_221.pth和Depth_Anything_V2/checkpoints/depth_anything_v2_vitb.pth权重文件大于100M，需使用git lfs相关命令进行拉取。  
+## 权重文件说明
+save_model/adapter/train_adapter_221.pth权重文件是stage1训练后得到的权重文件  
+Depth_Anything_V2/checkpoints/depth_anything_v2_vitb.pth权重文件是用于得到深度图  
+两个权重文件均大于100M，可能需使用git lfs相关命令进行拉取  
   
 ## 代码运行
 整个代码运行分为了两个阶段：  
